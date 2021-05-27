@@ -21,6 +21,20 @@
       background-color: #CCC;
       width: 100vmin;
       height: 100vmin;
+      display: grid;
+      /* 21 rows, 21 columns, all exact same width/height */
+      grid-template-rows: repeat(21, 1fr);
+      grid-template-rows: repeat(21, 1fr);
+    }
+
+    .snake{
+      background-color: hsl(140,100%,50%);
+      border: .25vmin solid black;
+    }
+
+    .food{
+      background-color: hsl(0,100%,50%);
+      border: .25vmin solid black;
     }
   </style>
 </head>
